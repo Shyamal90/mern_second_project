@@ -1,0 +1,25 @@
+{
+  "name": "mern_second_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon backend/src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shyamal90/mern_second_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shyamal90/mern_second_project/issues"
+  },
+  "homepage": "https://github.com/Shyamal90/mern_second_project#readme",
+  "dependencies": {
+    "dotenv": "^14.3.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  }
+}

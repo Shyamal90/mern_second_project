@@ -1,0 +1,31 @@
+Install express / nodemon
+Require packege json file - "npm init -y"
+
+
+create a router to render landing page
+
+create router for contact page / about page / login page / registration page
+
+
+---------------------
+---------------------
+Deprication Error
+---------------------
+---------------------
+{
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useUnifiedTopology: true,
+    useFindAndModify: false
+}
+====================
+        End
+===================
+
+
+
+**Rules of using env files
+--------------------------
+
+1. import dotenv 
+2. define path of env file--->   dotenv.config({path:"./configs.env"});
