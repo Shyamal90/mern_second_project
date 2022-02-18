@@ -1,17 +1,13 @@
 // const dotenv = require("dotenv");
+
 const express = require("express");
-const connect = require("./configs/db");
+
 
 
 const app = express();
 
 
-//define path
-// dotenv.config({path: './config.env'});
-require('dotenv').config()
-//define PORT
-const PORT = process.env.PORT;
-console.log(PORT)
+
 
 //Use Middle ware
 const middleware = (req,res,next)=>{
@@ -45,13 +41,7 @@ app.get("/signup",(req,res)=>{
     res.send("Welcome to Registration Page");
 })
 
-//Connect with local server
-app.listen(4000,async()=>{
-    try {
-        await connect();
-        console.log("Server connect with 4000");
-    } catch (error) {
-       console.log("Connection not success")
-    }
-    
-})
+
+
+//export app
+module.exports = app;

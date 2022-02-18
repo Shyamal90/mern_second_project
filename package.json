@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "server": "nodemon backend/src/app"
+    "server": "nodemon backend/src/server"
   },
   "repository": {
     "type": "git",
